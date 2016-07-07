@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bank name="南京银行新版[njcbnew]" bankCode="njcbnew" business="ye" tranCode="200108">
+ <reciveNCData>&lt;?xml version="1.0" encoding="GB2312"?&gt;&lt;data bank="njcbnew" banktype="00050" func="ye" roottag="input" type="type" version="nc5.5"&gt;&lt;row account_num="01400120030000547" espdate="" newpackageid="160616121534563"&gt;&lt;/row&gt;&lt;row account_num="01450120210005247" espdate="" newpackageid="160616121534565"&gt;&lt;/row&gt;&lt;/data&gt;</reciveNCData>
+ <sendBankData>test</sendBankData>
+ <reciveBankData>000000031500&lt;ap&gt;&lt;head&gt;&lt;tr_code&gt;200108&lt;/tr_code&gt;&lt;cms_corp_no/&gt;&lt;user_no/&gt;&lt;org_code/&gt;&lt;serial_no/&gt;&lt;req_no&gt;160616121534565&lt;/req_no&gt;&lt;tr_acdt&gt;20160616&lt;/tr_acdt&gt;&lt;tr_time&gt;122232&lt;/tr_time&gt;&lt;channel&gt;5&lt;/channel&gt;&lt;sign&gt;1&lt;/sign&gt;&lt;file_flag&gt;0&lt;/file_flag&gt;&lt;reserved/&gt;&lt;/head&gt;&lt;body&gt;&lt;acno&gt;01450120210005247&lt;/acno&gt;&lt;cur_code&gt;01&lt;/cur_code&gt;&lt;/body&gt;&lt;/ap&gt;</reciveBankData>
+ <sendNCData>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;data bank="njcbnew" func="ye" type="" roottag="output" version="ufbank601"&gt;&lt;row tranflag="1" retcode="2400" trandesc="无此账户" account_num="" c_ccynbr="" accnam="" balance="" usable_balance="" pres_balance=""/&gt;&lt;/data&gt;</sendNCData>
+</bank>
